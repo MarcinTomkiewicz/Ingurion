@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strona o fantastyce</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap" rel="stylesheet">
 </head>
@@ -16,9 +16,16 @@
 <body>
     <div class="wrapper">
         <header class="top__picture"><img src="https://picsum.photos/1438/241" class="logo"></header>
+        <div class="search">
+            <!-- <h1>Search this site</h1>
+            <h3>Click on search icon, then type your keyword.</h3> -->
+            <div>
+                <input type="text" placeholder="Szukaj . . ." required>
+            </div>
+        </div>
         <nav class="top__nav">
             <ul class="main__menu">
-                <li class="main__menu--item"><a href="#">Home</a></li>
+                <li class="main__menu--item"><a href="index.html">Home</a></li>
                 <li class="main__menu--item"><a href="#">Recenzje gier</a>
                     <nav class="nav__games">
                         <ul class="nav__games--list">
@@ -106,15 +113,9 @@
                         </ul>
                     </nav>
                 </li>
-                <li class="main__menu--item"><a href="#">Redakcja</a></li>
-
-
-
-
+                <li class="main__menu--item"><a href="#" id="redakcja">Redakcja</a></li>
             </ul>
-
         </nav>
-        <aside class="left__panel"></aside>
         <main class="main__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ex id animi, incidunt rerum ea voluptates velit iure tempora repellendus quisquam, harum aspernatur, at repellat nemo necessitatibus! Ab, nihil perferendis. Velit ab laboriosam sapiente
             est. Laboriosam, tempore corporis. Repellendus voluptates sapiente asperiores, consequatur vero aut assumenda aliquid harum cumque impedit nulla iste fugit provident perferendis, dolor qui omnis! Nihil, nam? Distinctio error velit debitis
             atque natus dolor porro pariatur ut eius maxime. Quae, maiores. Aspernatur, animi libero eveniet atque quas saepe corrupti nulla nihil eius ex. Asperiores beatae illum autem! Nobis at accusamus enim nemo, eligendi architecto vitae cum exercitationem
@@ -162,7 +163,41 @@
             quasi ex aliquid quas quos, fugit culpa possimus blanditiis omnis provident, quisquam facilis. Voluptatibus obcaecati ipsam tenetur omnis iure corrupti, nostrum itaque sint eum soluta perferendis sapiente minus possimus consectetur at quia.
             Tempore nihil, dolores veritatis impedit sed cumque natus quasi ipsam quam! Dolorem iusto quis quo ratione minus. Accusantium autem ex officia exercitationem molestiae! Blanditiis eligendi cum veniam molestias ipsa nemo asperiores? Eveniet,
             ut fugit commodi fuga molestias dolorum veniam quaerat recusandae!</main>
+        <footer class="foot__nav">
+            <div class="footer__left">
+                <ul class="contact">Kontakt:
+                    <li class="contact--element">Tel: +48 123 456 789</li>
+                    <li class="contact--element">Mail: ingurion@ingurion.pl</li>
+                </ul>
+            </div>
+            <div class="footer__center">
+                <!-- <p class="write">Napisz do nas</p> -->
+                <p class="newsletter">Dołącz do newslettera</p>
+                <ul class="newsletter__form">
+                    <input type="mail" name="join__newsletter" class="join__newsletter">
+                    <input type="submit" value="Zapisz się" class="btn">
+                </ul>
+            </div>
+            <div class="footer__right">
+                <div class="watch__intro">Obserwuj nas:</div>
+                <ul class="watch__us">
+                    <li><img src="facebook.png" alt="Facebook Icon" class="watch__us--icon"></li>
+                    <li><img src="insta.png" alt="Insta Icon" class="watch__us--icon"></li>
+                </ul>
+            </div>
+        </footer>
     </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
