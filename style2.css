@@ -134,7 +134,13 @@ a {
     font-family: 'Kurale', cursive;
     font-style: italic;
     color: #e2cf78;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 1px rgb(134, 79, 185);
     /* position: fixed; */
+    -webkit-box-shadow: 1px 16px 10px -8px rgba(156, 105, 204, 0.7);
+    -moz-box-shadow: 1px 16px 10px -8px rgba(156, 105, 204, 0.7);
+    box-shadow: 1px 16px 10px -8px rgba(156, 105, 204, 0.7);
 }
 
 .main__menu {
@@ -164,9 +170,11 @@ a {
     margin: 0;
     padding: 0;
     z-index: -17;
-    background-color: rgba(156, 105, 204, 0.9);
+    background-color: rgba(156, 105, 204, 0.902);
     color: #e2cf78;
     position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav__games--list {
@@ -203,6 +211,8 @@ a {
     background-color: rgba(156, 105, 204, 0.9);
     color: #e2cf78;
     position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav__movies--list {
@@ -238,6 +248,8 @@ a {
     background-color: rgba(156, 105, 204, 0.9);
     color: #e2cf78;
     position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav__books--list {
@@ -273,6 +285,8 @@ a {
     background-color: rgba(156, 105, 204, 0.9);
     color: #e2cf78;
     position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav__rpg--list {
@@ -352,13 +366,16 @@ a {
     background-color: rgba(254, 242, 187, 0.4);
     color: black;
     margin: 0;
-    padding: 0;
+    padding: 7px;
     z-index: -21;
     width: 75%;
     margin-top: 1%;
-    /* margin-left: 5%; */
+    border-radius: 20px;
     margin-right: 5%;
     text-align: justify;
+    -webkit-box-shadow: -13px -13px 0px 0px rgba(255, 245, 200, .4);
+    -moz-box-shadow: -13px -13px 0px 0px rgba(255, 245, 200, .4);
+    box-shadow: -13px -13px 0px 0px rgba(255, 245, 200, .4);
 }
 
 .foot__nav {
@@ -367,7 +384,7 @@ a {
     /* top: 120%; */
     width: 100%;
     height: 150px;
-    background-color: #864fb9cc;
+    background-color: rgba(134, 79, 185, 0.8);
     /* align-self: center; */
     color: #e2cf78;
     /* align-items: center; */
@@ -376,6 +393,8 @@ a {
     margin: 0;
     padding: 0;
     font-family: 'Kurale', cursive;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .contact {
