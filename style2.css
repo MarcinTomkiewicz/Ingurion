@@ -124,7 +124,7 @@ a {
 }
 
 .top__nav {
-    width: 100%;
+    width: 99.9%;
     background-color: rgb(134, 79, 185);
     height: max-content;
     margin: 0;
@@ -138,9 +138,9 @@ a {
     border-bottom-right-radius: 20px;
     border: solid 1px rgb(134, 79, 185);
     /* position: fixed; */
-    -webkit-box-shadow: 1px 16px 10px -8px rgba(156, 105, 204, 0.7);
-    -moz-box-shadow: 1px 16px 10px -8px rgba(156, 105, 204, 0.7);
-    box-shadow: 1px 16px 10px -8px rgba(156, 105, 204, 0.7);
+    -webkit-box-shadow: 0px 15px 10px -8px rgba(156, 105, 204, 0.7);
+    -moz-box-shadow: 0px 15px 10px -8px rgba(156, 105, 204, 0.7);
+    box-shadow: 0px 15px 10px -8px rgba(156, 105, 204, 0.7);
 }
 
 .main__menu {
@@ -190,7 +190,7 @@ a {
     animation: slidein 1.4s cubic-bezier(0.280, 0.840, 0.420, 1) 1 forwards;
     display: block;
     position: absolute;
-    left: -55%;
+    left: -60%;
     /* top: 50%; */
 }
 
@@ -199,7 +199,7 @@ a {
     display: block;
     position: absolute;
     padding: 0;
-    left: -55%;
+    left: -60%;
 }
 
 .nav__movies {
@@ -438,6 +438,12 @@ a {
     /* padding-left: 20px; */
     font-family: 'Kurale', cursive;
     text-align: center;
+}
+
+.join__newsletter:focus {
+    outline-offset: 1px;
+    outline: transparent;
+    outline-color: rgba(255, 245, 200, 0.8);
 }
 
 .btn {
